@@ -1,4 +1,4 @@
-const BASE = "http://localhost:8080/api";
+const BASE = "https://saveur-backend-production.up.railway.app/api";
 const getToken = () => localStorage.getItem("token");
 
 export const initiatePayment = async (amount, customerName, onSuccess, onFailure) => {

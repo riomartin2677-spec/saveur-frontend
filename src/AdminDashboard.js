@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 
-const BASE = "http://localhost:8080/api";
+const BASE = "https://saveur-backend-production.up.railway.app/api";
 const getToken = () => localStorage.getItem("token");
 
 const ROLES = ["CUSTOMER", "KITCHEN", "ADMIN"];
