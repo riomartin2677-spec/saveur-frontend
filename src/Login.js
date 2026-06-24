@@ -11,8 +11,8 @@ export default function Login({ onLogin }) {
     setError("");
     try {
       const url = isRegister
-        ? "http://localhost:8080/api/auth/register"
-        : "http://localhost:8080/api/auth/login";
+        ? "https://saveur-backend-production.up.railway.app/api/auth/register"
+        : "https://saveur-backend-production.up.railway.app/api/auth/login"
 
       const body = isRegister
         ? { name: form.name, email: form.email, password: form.password, role: form.role }
